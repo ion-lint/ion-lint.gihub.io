@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #1a1a1a; /* Тёмный фон для премиум-вида */
+    color: #ffffff; /* Белый текст для контраста */
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #d4af37; /* Золотой цвет для заголовков */
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #cccccc; /* Светло-серый для текста */
+}
+
+/* Projects */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.project {
+    background: #2b2b2b; /* Тёмно-серый фон карточек */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Глубокая тень */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.2); /* Золотистая тень при наведении */
+}
+
+.project h2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #d4af37; /* Золотой для заголовков проектов */
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 12px;
+    text-align: left;
+    color: #cccccc;
+}
+
+.project p strong {
+    color: #ffffff; /* Белый для выделения */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+    border: 1px solid #d4af37; /* Золотая рамка */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #d4af37; /* Золотая кнопка */
+    color: #1a1a1a; /* Тёмный текст на кнопке */
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #ffffff; /* Белый при наведении */
+    color: #1a1a1a;
+    transform: scale(1.05);
+}
