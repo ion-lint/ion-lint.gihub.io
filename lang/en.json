@@ -1,0 +1,20 @@
+
+{
+  "about-title": "About Me",
+  "about-text": "Hello, I'm Ion Linti, an AI engineer dedicated to developing advanced solutions that drive business success.",
+  "projects-title": "Projects",
+  "project1-title": "Sales Optimization",
+  "project1-problem": "Companies incur losses due to flawed purchasing decisions.",
+  "project1-solution": "Implemented machine learning algorithms to optimize procurement strategies, resulting in significant cost savings.",
+  "project2-title": "Customer Churn Analysis",
+  "project2-problem": "Identifying the underlying causes of customer attrition.",
+  "project2-solution": "Developed a robust machine learning model to predict customer churn and pinpoint its primary drivers.",
+  "project3-title": "Review Filtering",
+  "project3-problem": "Inefficient analysis and utilization of customer reviews.",
+  "project3-solution": "Created a machine learning system that detects sentiment keywords in reviews, enabling effective categorization and business insights.",
+  "project4-title": "Product Description Generator",
+  "project4-problem": "Generating consistent and creative product descriptions at scale can be challenging.",
+  "project4-solution": "Developed a website powered by a large language model (LLM) that automatically generates engaging and persuasive product descriptions.",
+  "btn-github": "View on GitHub",
+  "btn-demo": "Test site"
+}
